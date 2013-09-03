@@ -26,6 +26,9 @@ if (isset($_POST['submit'])) {
     $keyCheck = crypt_decrypt(10, $keyCheck);
     
     if ($keyWrite == $keyCheck) {
+        /* put inside the code in case captcha was correct
+         * eg: include ok mail(), etc
+        */
         echo ("Correct");
     } else {
         echo("Wrong");

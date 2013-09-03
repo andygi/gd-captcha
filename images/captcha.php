@@ -6,9 +6,13 @@ $key = $_GET['key'];
 $key = crypt_decrypt(10, $key);
 
 $my_img = imagecreatefrompng ( "captcha.png" );
+
+//image settings
+
 $background = imagecolorallocate( $my_img, 0, 0, 255 );
 $text_colour = imagecolorallocate( $my_img, 0, 0, 0 );
 $line_colour = imagecolorallocate( $my_img, 128, 255, 0 );
+
 imagestring( $my_img, 4, 30, 25, $key,
   $text_colour );
 imagesetthickness ( $my_img, 5 );
