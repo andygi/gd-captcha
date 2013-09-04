@@ -5,7 +5,7 @@ So, I have decided to make a new one, very simple to use and develop into your c
 
 Release 1
 
-Description:
+##Description:
 
 index.php -- is the file where the captcha form and checking, at the moment the form action call the same page
 captcha.php -- is the function that generate the image with a randomic alfanumeric code
