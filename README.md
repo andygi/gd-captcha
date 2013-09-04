@@ -1,4 +1,4 @@
-Simply captcha
+#Simply captcha
 
 Every time my clients ask me a form with captcha but when I provide it one (eg. re-captcha) I ever heard the same story: "it's too big! I don't like it! Can you change it?"
 So, I have decided to make a new one, very simple to use and develop into your code, and not so "horrible" ;)
